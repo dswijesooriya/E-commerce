@@ -14,7 +14,7 @@ import Contact from './pages/Contact'
 import Product from './pages/Product'
 import Cart from './pages/Cart'
 import Login from './pages/Login'
-import verify from './pages/Verify'
+import Verify from './pages/Verify'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
@@ -43,7 +43,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/orders' element={<Orders />} />
-        <Route path='/verify' element={<Verify />}
+     <Route path='/verify' element={<Verify />} />
       </Routes>
      <Footer />
     </div>
